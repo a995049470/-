@@ -1,0 +1,13 @@
+﻿  main.cpp
+d:\lhy\vscodeprojects\模拟自然\p_1\main.cpp(28): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+d:\lhy\vscodeprojects\模拟自然\p_1\main.cpp(29): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+d:\lhy\vscodeprojects\模拟自然\p_1\main.cpp(92): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\lhy\vscodeprojects\模拟自然\p_1\main.cpp(117): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\lhy\vscodeprojects\模拟自然\p_1\main.cpp(118): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+d:\lhy\vscodeprojects\模拟自然\p_1\main.cpp(158): warning C4018: “<”: 有符号/无符号不匹配
+d:\lhy\vscodeprojects\模拟自然\p_1\main.cpp(276): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+d:\lhy\vscodeprojects\模拟自然\p_1\main.cpp(288): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+d:\lhy\vscodeprojects\模拟自然\p_1\main.cpp(290): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+d:\lhy\vscodeprojects\模拟自然\p_1\main.cpp(291): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+d:\lhy\vscodeprojects\模拟自然\p_1\main.cpp(303): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  P_1.vcxproj -> D:\LHY\VSCodeProjects\模拟自然\Debug\P_1.exe

@@ -1,0 +1,107 @@
+﻿生成启动时间为 2019/11/21 14:47:13。
+     1>项目“D:\LHY\VSCodeProjects\模拟自然\LB_1\LB_1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\SoftWare\VS2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Box2D\Collision\Shapes\b2ChainShape.cpp Box2D\Collision\Shapes\b2CircleShape.cpp Box2D\Collision\Shapes\b2EdgeShape.cpp Box2D\Collision\Shapes\b2PolygonShape.cpp Box2D\Collision\b2BroadPhase.cpp Box2D\Collision\b2CollideCircle.cpp Box2D\Collision\b2CollideEdge.cpp Box2D\Collision\b2CollidePolygon.cpp Box2D\Collision\b2Collision.cpp Box2D\Collision\b2Distance.cpp Box2D\Collision\b2DynamicTree.cpp Box2D\Collision\b2TimeOfImpact.cpp Box2D\Common\b2BlockAllocator.cpp Box2D\Common\b2Draw.cpp Box2D\Common\b2Math.cpp Box2D\Common\b2Settings.cpp Box2D\Common\b2StackAllocator.cpp Box2D\Common\b2Timer.cpp Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp Box2D\Dynamics\Contacts\b2CircleContact.cpp Box2D\Dynamics\Contacts\b2Contact.cpp Box2D\Dynamics\Contacts\b2ContactSolver.cpp Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp Box2D\Dynamics\Contacts\b2PolygonContact.cpp Box2D\Dynamics\Joints\b2DistanceJoint.cpp Box2D\Dynamics\Joints\b2FrictionJoint.cpp Box2D\Dynamics\Joints\b2GearJoint.cpp Box2D\Dynamics\Joints\b2Joint.cpp Box2D\Dynamics\Joints\b2MotorJoint.cpp Box2D\Dynamics\Joints\b2MouseJoint.cpp Box2D\Dynamics\Joints\b2PrismaticJoint.cpp Box2D\Dynamics\Joints\b2PulleyJoint.cpp Box2D\Dynamics\Joints\b2RevoluteJoint.cpp Box2D\Dynamics\Joints\b2RopeJoint.cpp Box2D\Dynamics\Joints\b2WeldJoint.cpp Box2D\Dynamics\Joints\b2WheelJoint.cpp Box2D\Dynamics\b2Body.cpp Box2D\Dynamics\b2ContactManager.cpp Box2D\Dynamics\b2Fixture.cpp Box2D\Dynamics\b2Island.cpp Box2D\Dynamics\b2World.cpp Box2D\Dynamics\b2WorldCallbacks.cpp Box2D\Rope\b2Rope.cpp main_LB_1.cpp
+         main_LB_1.cpp
+         b2Rope.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\rope\b2rope.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Rope/b2Rope.h”: No such file or directory
+         b2WorldCallbacks.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\b2worldcallbacks.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/b2WorldCallbacks.h”: No such file or directory
+         b2World.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\b2world.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/b2World.h”: No such file or directory
+         b2Island.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\b2island.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Collision/b2Distance.h”: No such file or directory
+         b2Fixture.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\b2fixture.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/b2Fixture.h”: No such file or directory
+         b2ContactManager.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\b2contactmanager.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/b2ContactManager.h”: No such file or directory
+         b2Body.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\b2body.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/b2Body.h”: No such file or directory
+         b2WheelJoint.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\joints\b2wheeljoint.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Joints/b2WheelJoint.h”: No such file or directory
+         b2WeldJoint.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\joints\b2weldjoint.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Joints/b2WeldJoint.h”: No such file or directory
+         b2RopeJoint.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\joints\b2ropejoint.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Joints/b2RopeJoint.h”: No such file or directory
+         b2RevoluteJoint.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\joints\b2revolutejoint.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Joints/b2RevoluteJoint.h”: No such file or directory
+         b2PulleyJoint.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\joints\b2pulleyjoint.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Joints/b2PulleyJoint.h”: No such file or directory
+         b2PrismaticJoint.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\joints\b2prismaticjoint.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Joints/b2PrismaticJoint.h”: No such file or directory
+         b2MouseJoint.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\joints\b2mousejoint.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Joints/b2MouseJoint.h”: No such file or directory
+         b2MotorJoint.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\joints\b2motorjoint.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Joints/b2MotorJoint.h”: No such file or directory
+         b2Joint.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\joints\b2joint.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Joints/b2Joint.h”: No such file or directory
+         b2GearJoint.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\joints\b2gearjoint.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Joints/b2GearJoint.h”: No such file or directory
+         b2FrictionJoint.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\joints\b2frictionjoint.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Joints/b2FrictionJoint.h”: No such file or directory
+         b2DistanceJoint.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\joints\b2distancejoint.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Joints/b2DistanceJoint.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         b2PolygonContact.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\contacts\b2polygoncontact.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Contacts/b2PolygonContact.h”: No such file or directory
+         b2PolygonAndCircleContact.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\contacts\b2polygonandcirclecontact.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.h”: No such file or directory
+         b2EdgeAndPolygonContact.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\contacts\b2edgeandpolygoncontact.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.h”: No such file or directory
+         b2EdgeAndCircleContact.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\contacts\b2edgeandcirclecontact.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.h”: No such file or directory
+         b2ContactSolver.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\contacts\b2contactsolver.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Contacts/b2ContactSolver.h”: No such file or directory
+         b2Contact.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\contacts\b2contact.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Contacts/b2Contact.h”: No such file or directory
+         b2CircleContact.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\contacts\b2circlecontact.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Contacts/b2CircleContact.h”: No such file or directory
+         b2ChainAndPolygonContact.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\contacts\b2chainandpolygoncontact.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.h”: No such file or directory
+         b2ChainAndCircleContact.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\dynamics\contacts\b2chainandcirclecontact.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Dynamics/Contacts/b2ChainAndCircleContact.h”: No such file or directory
+         b2Timer.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\common\b2timer.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Common/b2Timer.h”: No such file or directory
+         b2StackAllocator.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\common\b2stackallocator.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Common/b2StackAllocator.h”: No such file or directory
+         b2Settings.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\common\b2settings.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Common/b2Settings.h”: No such file or directory
+         b2Math.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\common\b2math.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Common/b2Math.h”: No such file or directory
+         b2Draw.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\common\b2draw.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Common/b2Draw.h”: No such file or directory
+         b2BlockAllocator.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\common\b2blockallocator.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Common/b2BlockAllocator.h”: No such file or directory
+         b2TimeOfImpact.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\collision\b2timeofimpact.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Collision/b2Collision.h”: No such file or directory
+         b2DynamicTree.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\collision\b2dynamictree.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Collision/b2DynamicTree.h”: No such file or directory
+         b2Distance.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\collision\b2distance.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Collision/b2Distance.h”: No such file or directory
+         b2Collision.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\collision\b2collision.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Collision/b2Collision.h”: No such file or directory
+         b2CollidePolygon.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\collision\b2collidepolygon.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Collision/b2Collision.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         b2CollideEdge.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\collision\b2collideedge.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Collision/b2Collision.h”: No such file or directory
+         b2CollideCircle.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\collision\b2collidecircle.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Collision/b2Collision.h”: No such file or directory
+         b2BroadPhase.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\collision\b2broadphase.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Collision/b2BroadPhase.h”: No such file or directory
+         b2PolygonShape.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\collision\shapes\b2polygonshape.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Collision/Shapes/b2PolygonShape.h”: No such file or directory
+         b2EdgeShape.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\collision\shapes\b2edgeshape.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Collision/Shapes/b2EdgeShape.h”: No such file or directory
+         b2CircleShape.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\collision\shapes\b2circleshape.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Collision/Shapes/b2CircleShape.h”: No such file or directory
+         b2ChainShape.cpp
+     1>d:\lhy\vscodeprojects\模拟自然\lb_1\box2d\collision\shapes\b2chainshape.cpp(19): fatal error C1083: 无法打开包括文件: “Box2D/Collision/Shapes/b2ChainShape.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“D:\LHY\VSCodeProjects\模拟自然\LB_1\LB_1.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.38
