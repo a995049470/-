@@ -282,7 +282,6 @@ void Draw(vector<DrawUnit> &units)
 }
 
 
-
 vector<DrawUnit> units;
 b2Vec2 gravity(0.0f, -10.0f);
 b2World world = b2World(gravity);
@@ -331,7 +330,61 @@ void SetField()
 	}
 }
 
-
+void CA(int* _cell, int _len, int _count, int _side)
+{
+	int side = _side;
+	int tp[8] = { 0 , 1, 0, 1, 1, 0, 1, 0};
+	for (size_t i = 0; i < 8; i++)
+	{
+		tp[i] = Random(0, 2);
+	}
+	int* c1 = (int*)malloc(sizeof(int) * _len);
+	int* c2 = (int*)malloc(sizeof(int) * _len);
+	int t[3] = {0};
+	for (int i = 0; i < _len; i++)
+	{
+		c1[i] = _cell[i];
+		c2[i] = 0;
+	}
+	for (int i = 0; i < _count; i++)
+	{
+		for (int j = 0; j < _len; j++)
+		{
+			int a = (j - 1 + _len) % _len;
+			int b = j;
+			int c = (j + 1 + _len) % _len;
+			t[0] = c1[a];
+			t[1] = c1[b];
+			t[2] = c2[c];
+			/*if (t[0] > 1 || t[1] > 1 || t[2] > 1 ||
+				t[0] < 0 || t[1] < 0 || t[2] < 0)
+			{
+				DEBUG(t[0] << "  " << t[1] << "  " << t[2] << " j: " << j << "  " << ((j - 1) >= 0));
+			}*/
+			int id = 4 * t[0] + 2 * t[1] + 1 * t[2];
+			if (id > 7 || id < 0)
+			{
+				DEBUG(id);
+				continue;
+			}
+			c2[j] = tp[id];
+			if (c2[j] == 1)
+			{
+				int left = j * side;
+				int right = left + side;
+				int bottom = i * side;
+				int top = bottom + side;
+				if(DRAW) solidrectangle(left, top, right, bottom);
+			}
+		}
+		//Sleep(2);
+		auto c3 = c1;
+		c1 = c2;
+		c2 = c3;
+	}
+	delete(c1);
+	delete(c2);
+}
 
 int main()
 {
@@ -342,7 +395,27 @@ int main()
 		/*setaspectratio(1, -1);
 		setorigin(0, HEIGHT);*/
 	}
-	SetField();
+	const int s0 = 8;
+	const int s1 = WIDTH / s0;
+	const int s2 = HEIGHT / s0;
+	
+	int cell[s1] = {0};
+	
+	
+	while (true)
+	{
+		cleardevice();
+		for (size_t i = 0; i < s1; i++)
+		{
+			cell[i] = Random(0, 2);
+		}
+		cell[s1 / 2] = 1;
+		BeginBatchDraw();
+		CA(cell, s1, s2, s0);
+		EndBatchDraw();
+		Sleep(1000);
+	}
+	//SetField();
 	units.reserve(10);
 	b2BodyDef groundBodyDef;
 	groundBodyDef.position.Set(WIDTH / 2 / COE, 2.0f);
@@ -366,8 +439,7 @@ int main()
 		Draw(units);
 		Sleep(timeStep * 1000);	
 	}
-	
-	closegraph;
+	if (DRAW)closegraph();
 	while (true)
 	{
 
